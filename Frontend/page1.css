@@ -1,0 +1,55 @@
+#page1{
+    height: 100vh;
+     }
+#nav{
+    height: 120px;
+    background-color:yan;
+    display: flex;
+    position: sticky;
+}    
+#logo{
+    height: 50px;
+    width: 200px;
+    background-color: blueviolet;
+}
+#menu{
+    background-color: lue;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#menu>h1{
+    margin: 25px;
+    cursor: pointer;
+    font-size: x-large;
+    color:white;
+}
+#menu>h1:hover{
+    color:lightgreen;
+    text-decoration: solid black;
+}
+img{
+    height: 120px;
+}
+#ok{
+    position: absolute;
+    top: 37px;
+    font-size: x-large;
+    left: 60px;
+    color:lightgreen;
+    font-weight: 600;
+}
+#body>img{
+    height: 500px;
+    margin-top: 80px;
+    width: 800px;
+}
+#body{
+    display: flex;
+    
+}
+
+
+  
