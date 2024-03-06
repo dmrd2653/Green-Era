@@ -1,0 +1,115 @@
+/* Reseting Browser Settings */
+/* Do not change anything here  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+figure,
+blockquote,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove hyperlinks text decoration */
+a {
+  text-decoration: none;
+}
+
+/* Remove table border spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset form styles */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+/* Reset button and input elements */
+button,
+input {
+  overflow: visible;
+}
+
+/* Address inconsistent styling in modern browsers */
+button,
+select {
+  text-transform: none;
+}
+
+/* Remove the inheritance of text transform in Edge and Firefox */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/* Remove the inner border and padding in Firefox */
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/* Address Firefox and Safari's outline inconsistency */
+:-moz-focusring,
+:-webkit-focus-ring {
+  outline: 1px dotted;
+}
+
+/* Resetting some default styles in modern browsers */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+}
+/* Main Styling (do not change!) */
+#page1{
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(103, 58, 183), rgb(186, 104, 200), rgb(229, 204, 255));
+}
+/* Main Styling (do not change!) */
+#page2{
+    height: 100vh;
+    background: linear-gradient(to top right, rgb(103, 58, 183), rgb(186, 104, 200), rgb(229, 204, 255));
+}
+/* Main Styling (do not change!) */
+#page3{
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(103, 58, 183), rgb(186, 104, 200), rgb(229, 204, 255));
+}
+/* Main Styling (do not change!) */
+#page4{
+    height: 100vh;
+    background: linear-gradient(to top right, rgb(103, 58, 183), rgb(186, 104, 200), rgb(229, 204, 255));
+}
