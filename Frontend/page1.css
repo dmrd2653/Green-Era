@@ -1,10 +1,11 @@
 /* Workspace for Dnyanesh Mulay */
 #page1{
     height: 100vh;
-     }
+    width: auto;
+ }
+     /* navigation bar starts here */
 #nav{
     height: 120px;
-    background-color:yan;
     display: flex;
     position: sticky;
 }    
@@ -32,24 +33,15 @@
     text-decoration: solid black;
 }
 img{
-    height: 120px;
-}
-#ok{
-    position: absolute;
-    top: 37px;
-    font-size: x-large;
-    left: 60px;
-    color:lightgreen;
-    font-weight: 600;
+    height: 120px;   
 }
 #body>img{
     height: 500px;
-    margin-top: 80px;
+    margin-top: 95px;
     width: 800px;
 }
 #body{
     display: flex;
-    
 }
 
 
