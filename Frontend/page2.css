@@ -1,1 +1,21 @@
-/* Workspace for Ayush Yadav */
+#page2 {
+    height: 100vh;
+    width: 100%;
+}
+
+#page2nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#heroimg {
+    background-color: aqua;
+    height: 100vh;
+    width: 50vw;
+}
+
+#herotxt {
+    background-color: brown;
+    height: 100vh;
+    width: 50vw;
+}
