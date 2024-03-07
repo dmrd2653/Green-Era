@@ -13,28 +13,34 @@
     width: 200px;
     background-color: blueviolet;
 }
-#menu{
-    background-color: lue;
-    height: 150px;
+#navbar{
+    height: 70px;
     width: 100%;
+    margin-top: 10px;
+    background-image: url(../Assets/photo-1547936785-c57315d64694.avif);
+    border-radius: px;
+    border-top-right-radius: 70px; 
+    border-bottom-left-radius: 70px;
+    background-size: cover;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
 }
-#menu>h1{
-    margin: 25px;
+#logo{
+    color: white;
+    margin-left: 5px;
     cursor: pointer;
-    font-size: x-large;
-    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+    text-decoration: underline;
 }
-#menu>h1:hover{
-    color:lightgreen;
-    text-decoration: solid black;
+#Menu{
+   border-left: 3px solid white;
 }
 img{
     height: 120px;
 }
-#mainlogo{
+#ok{
     position: absolute;
     top: 37px;
     font-size: x-large;
@@ -53,4 +59,3 @@ img{
 }
 
 
-  
