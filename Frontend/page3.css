@@ -1,1 +1,65 @@
 /* Workspace for Prathamesh */
+/* Main Styling (do not change!) */
+#page1{
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(103, 58, 183), rgb(186, 104, 200), rgb(229, 204, 255));
+}
+/* Main Styling (do not change!) */
+#page2{
+    height: 100vh;
+    background: linear-gradient(to top right, rgb(103, 58, 183), rgb(186, 104, 200), rgb(229, 204, 255));
+
+}
+/* Main Styling (do not change!) */
+#page3{
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(103, 58, 183), rgb(186, 104, 200), rgb(229, 204, 255));
+}
+/* Main Styling (do not change!) */
+#page4{
+    height: 100vh;
+    background: linear-gradient(to top right, rgb(103, 58, 183), rgb(186, 104, 200), rgb(229, 204, 255));
+}
+*{
+    padding:0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#leftside{
+    height: 70%;
+    width: 40%;
+    border: 2px solid black;
+    margin-top: 4%;
+    border-radius: 60px;
+}
+#rightside{
+    height: 70%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 3%;
+}
+#righttop{
+    height: 40%;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 60px;
+    margin-top: 6%;
+    margin-right: 5%;
+}
+#rightbottom{
+    height: 40%;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 60px;
+}
