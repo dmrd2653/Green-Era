@@ -1,56 +1,51 @@
 /* Workspace for Dnyanesh Mulay */
 #page1{
     height: 100vh;
-     }
-#nav{
-    height: 120px;
-    background-color:yan;
-    display: flex;
-    position: sticky;
-}    
-#logo{
-    height: 50px;
-    width: 200px;
-    background-color: blueviolet;
-}
-#menu{
-    background-color: lue;
-    height: 150px;
     width: 100%;
+}
+#navbar{
+    height: 70px;
+    width: 100%;
+    margin-top: 10px;
+    background-image: url(../Assets/photo-1547936785-c57315d64694.avif);
+    border-radius: px;
+    border-top-right-radius: 70px; 
+    border-bottom-left-radius: 70px;
+    background-size: cover;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-between;
 }
-#menu>h1{
-    margin: 25px;
+#logo{
+    color: white;
+    margin-left: 5px;
     cursor: pointer;
-    font-size: x-large;
-    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+    text-decoration: underline;
 }
-#menu>h1:hover{
-    color:lightgreen;
-    text-decoration: solid black;
+#Menu{
+   border-left: 3px solid white;
 }
-img{
-    height: 120px;
-}
-#mainlogo{
-    position: absolute;
-    top: 37px;
-    font-size: x-large;
-    left: 60px;
-    color:lightgreen;
-    font-weight: 600;
-}
-#body>img{
-    height: 500px;
-    margin-top: 80px;
-    width: 800px;
-}
-#body{
+#submenu{
     display: flex;
+    color: white;
+    padding-right: 30px;
+    gap: 30px;
+    font-weight: 500;
+    color: white;
+    font-size: x-large;
+    padding-left: 25px;
+    cursor: pointer;
+}
+li:hover{
+    text-decoration: underline;
+}
+#maincontent{
+    height: 100%;
+    width: 100%;
+    background-image: url(../Assets/energias_limpias_746x419.jpg);
     
 }
 
 
-  
