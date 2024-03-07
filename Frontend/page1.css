@@ -1,17 +1,7 @@
 /* Workspace for Dnyanesh Mulay */
 #page1{
     height: 100vh;
-     }
-#nav{
-    height: 120px;
-    background-color:yan;
-    display: flex;
-    position: sticky;
-}    
-#logo{
-    height: 50px;
-    width: 200px;
-    background-color: blueviolet;
+    width: 100%;
 }
 #navbar{
     height: 70px;
@@ -37,25 +27,23 @@
 #Menu{
    border-left: 3px solid white;
 }
-img{
-    height: 120px;
-}
-#ok{
-    position: absolute;
-    top: 37px;
-    font-size: x-large;
-    left: 60px;
-    color:lightgreen;
-    font-weight: 600;
-}
-#body>img{
-    height: 500px;
-    margin-top: 80px;
-    width: 800px;
-}
-#body{
+#submenu{
     display: flex;
-    
+    color: white;
+    padding-right: 30px;
+    gap: 30px;
+    font-weight: 500;
+    color: white;
+    font-size: x-large;
+    padding-left: 25px;
+    cursor: pointer;
 }
+li:hover{
+    text-decoration: underline;
+}
+#maincontent{
+    height: 100%;
+    width: 100%;
+    background-image: url(../Assets/energias_limpias_746x419.jpg);
 
-
+}
