@@ -2,13 +2,15 @@
 #page1{
     height: 100vh;
     width: 100%;
+    background-image: url(../Assets/bgimage.avif);
+    background-size:cover;
+    background-position-y: center;
 }
 #navbar{
     height: 70px;
     width: 100%;
     margin-top: 10px;
     background-image: url(../Assets/photo-1547936785-c57315d64694.avif);
-    border-radius: px;
     border-top-right-radius: 70px; 
     border-bottom-left-radius: 70px;
     background-size: cover;
@@ -18,11 +20,11 @@
 }
 #logo{
     color: white;
-    margin-left: 5px;
+    margin-left: 28px;
     cursor: pointer;
     font-family:Arial, Helvetica, sans-serif;
     font-size:large;
-    text-decoration: underline;
+    text-decoration: underline solid;
 }
 #Menu{
    border-left: 3px solid white;
@@ -43,7 +45,66 @@ li:hover{
 }
 #maincontent{
     height: 100%;
+    width: 100%;   
+}
+.info{
+    height: 400px;
+    width: 800px;
+    background-color: qua;
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items:center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#maininfo{
+    display: flex;
+    flex-direction: column; 
+    align-items:center;
+    justify-content: center;
+}
+#info1{
+    font-size: x-large;
+}
+#info2,#info2A{
+    font-size: 55px;
+    font-weight: 600;
+    color: white;
+}
+#info2A{
+    text-align: center;
+}
+#info3{
+    font-weight: 600;
+    font-size: large;
+}
+.buttons{
+    margin-top: 20px;
+    gap: 20px;
     width: 100%;
-    background-image: url(../Assets/energias_limpias_746x419.jpg);
-
+    display: flex;
+    justify-content:center;
+    gap: 80px;
+}
+#btn1,#btn2{
+   padding: 15px 20px;
+   border-radius: 20px;
+  cursor: pointer;
+   font-weight: 600;
+}
+#btn1{
+    background-color: green;
+    color: white;
+}
+#btn1:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 100ms;
+}
+#btn2:hover{
+    background-color: green;
+    color: white;
+    transition-duration: 100ms ;
 }
