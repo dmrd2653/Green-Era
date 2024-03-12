@@ -5,6 +5,9 @@ module.exports = {
   content: ['./Frontend/**/*.html'],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['"Rowdies"', ...defaultTheme.fontFamily.sans], // Use "Rowdies" for the font name
+      },
       colors: {
         // Blue color 
         blue: '#13547a',
